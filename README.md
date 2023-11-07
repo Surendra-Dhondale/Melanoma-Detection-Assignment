@@ -30,7 +30,7 @@ The data set contains the following diseases:
 
 ## Conclusions
 - Conclusion 1:
-The model was extremely overfitting in our case and the validation accuracry was very low. we had to use an augmentation method to ensure that the model works better
+The model was extremely overfitting in our case and the validation accuracy was very low. we had to use an augmentation method to ensure that the model works better
 - Conclusion 2 
 we used basic augmentation and the validatiion accuracry still did not make a huge difference in the model's result. we did random flip, randomcrop to achieve this.
 considering that the model was overfitting, we considered to further finetune the data.
