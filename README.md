@@ -30,13 +30,20 @@ The data set contains the following diseases:
 
 ## Conclusions
 - Conclusion 1:
+
 The model was extremely overfitting in our case and the validation accuracy was very low. we had to use an augmentation method to ensure that the model works better
-- Conclusion 2 
+
+- Conclusion 2:
+
 we used basic augmentation and the validatiion accuracry still did not make a huge difference in the model's result. we did random flip, randomcrop to achieve this.
 considering that the model was overfitting, we considered to further finetune the data.
-- Conclusion 3 
+
+- Conclusion 3: 
+
 Data Imbalance was identified in the data and this was remediated using augmentor model. 
-- Conclusion 4 
+
+- Conclusion 4: 
+
 Post augmenting the data and fixing data imbalance, the results were impressive .. we got an impressive 95% accuracy in training and 83%+ validation accuracy. 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
